@@ -732,4 +732,60 @@ Wire Wire Line
 	5200 8800 5200 9150
 Connection ~ 5900 8800
 Connection ~ 5200 8950
+Text Label 1200 9000 2    60   ~ 0
+A3
+Text Label 5100 8400 0    60   ~ 0
+A3
+Wire Wire Line
+	5000 8400 5100 8400
+Wire Wire Line
+	1200 9000 1300 9000
+Text Label 1200 9100 2    60   ~ 0
+B3
+Text Label 1200 9200 2    60   ~ 0
+C3
+Text Label 1200 9300 2    60   ~ 0
+D3
+Text Label 1200 9400 2    60   ~ 0
+E3
+Text Label 1200 9500 2    60   ~ 0
+F3
+Text Label 1200 9600 2    60   ~ 0
+G3
+Text Label 3300 8400 2    60   ~ 0
+G3
+Text Label 3300 8300 2    60   ~ 0
+F3
+Wire Wire Line
+	3300 8300 3400 8300
+Wire Wire Line
+	3300 8400 3400 8400
+Wire Wire Line
+	1200 9100 1300 9100
+Wire Wire Line
+	1200 9200 1300 9200
+Wire Wire Line
+	1200 9300 1300 9300
+Wire Wire Line
+	1200 9400 1300 9400
+Wire Wire Line
+	1200 9500 1300 9500
+Wire Wire Line
+	1200 9600 1300 9600
+Text Label 5100 8500 0    60   ~ 0
+D3
+Text Label 5100 8100 0    60   ~ 0
+C3
+Text Label 5100 8200 0    60   ~ 0
+B3
+Text Label 5100 8300 0    60   ~ 0
+E3
+Wire Wire Line
+	5000 8500 5100 8500
+Wire Wire Line
+	5000 8300 5100 8300
+Wire Wire Line
+	5000 8200 5100 8200
+Wire Wire Line
+	5000 8100 5100 8100
 $EndSCHEMATC
