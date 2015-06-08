@@ -101,17 +101,6 @@ F 3 "" H 2650 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR02
-U 1 1 557465F3
-P 5750 900
-F 0 "#PWR02" H 5750 650 50  0001 C CNN
-F 1 "GNDREF" H 5750 750 50  0000 C CNN
-F 2 "" H 5750 900 60  0000 C CNN
-F 3 "" H 5750 900 60  0000 C CNN
-	1    5750 900 
-	-1   0    0    1   
-$EndComp
-$Comp
 L CP C1
 U 1 1 5574745D
 P 5450 1300
@@ -394,7 +383,7 @@ Connection ~ 2500 1600
 Connection ~ 2650 950 
 Connection ~ 5750 1050
 Wire Wire Line
-	2650 950  5900 950 
+	2350 950  5900 950 
 Wire Wire Line
 	5300 1300 5200 1300
 Wire Wire Line
@@ -521,9 +510,6 @@ Connection ~ 5400 5100
 Wire Wire Line
 	5250 4800 5400 4800
 Wire Wire Line
-	5000 5450 5900 5450
-Connection ~ 5900 5450
-Wire Wire Line
 	5700 5300 5900 5300
 Connection ~ 5900 5300
 Wire Wire Line
@@ -595,9 +581,6 @@ Connection ~ 2500 8200
 Wire Wire Line
 	3400 8500 2500 8500
 Connection ~ 2500 8500
-Wire Wire Line
-	5000 5650 5750 5650
-Connection ~ 5750 5650
 Wire Wire Line
 	5000 6600 5900 6600
 Connection ~ 5900 6600
@@ -805,17 +788,17 @@ D2
 Text Label 5200 5750 0    60   ~ 0
 C1
 Text Label 5200 5850 0    60   ~ 0
-B2
+B1
 Text Label 5200 5950 0    60   ~ 0
-E2
+E1
 Text Label 5200 6050 0    60   ~ 0
-A2
+A1
 Text Label 5200 6150 0    60   ~ 0
-D2
+D1
 Text Label 3200 5950 2    60   ~ 0
-F2
+F1
 Text Label 3200 6050 2    60   ~ 0
-G2
+G1
 Wire Wire Line
 	3200 5950 3400 5950
 Wire Wire Line
@@ -883,21 +866,49 @@ F1
 Text Label 5650 9600 2    60   ~ 0
 G1
 Wire Wire Line
+	3200 7100 3400 7100
+Wire Wire Line
+	3400 7200 3200 7200
+Wire Wire Line
+	5000 5450 5900 5450
+Connection ~ 5900 5450
+Wire Wire Line
+	5000 5650 5750 5650
+Connection ~ 5750 5650
+$Comp
+L GND #PWR02
+U 1 1 5577F775
+P 5750 900
+F 0 "#PWR02" H 5750 650 50  0001 C CNN
+F 1 "GND" H 5750 750 50  0000 C CNN
+F 2 "" H 5750 900 60  0000 C CNN
+F 3 "" H 5750 900 60  0000 C CNN
+	1    5750 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5577FCD2
+P 2350 950
+F 0 "#FLG03" H 2350 1045 50  0001 C CNN
+F 1 "PWR_FLAG" H 2350 1130 50  0000 C CNN
+F 2 "" H 2350 950 60  0000 C CNN
+F 3 "" H 2350 950 60  0000 C CNN
+	1    2350 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
 	5650 9600 5750 9600
 Wire Wire Line
 	5750 9500 5650 9500
 Wire Wire Line
-	5650 9400 5750 9400
+	5750 9400 5650 9400
 Wire Wire Line
 	5750 9300 5650 9300
 Wire Wire Line
-	5650 9200 5750 9200
+	5750 9200 5650 9200
 Wire Wire Line
 	5750 9100 5650 9100
 Wire Wire Line
-	5650 9000 5750 9000
-Wire Wire Line
-	3200 7100 3400 7100
-Wire Wire Line
-	3400 7200 3200 7200
+	5750 9000 5650 9000
 $EndSCHEMATC
