@@ -788,4 +788,116 @@ Wire Wire Line
 	5000 8200 5100 8200
 Wire Wire Line
 	5000 8100 5100 8100
+Text Label 3200 7100 2    60   ~ 0
+F2
+Text Label 3200 7200 2    60   ~ 0
+G2
+Text Label 5200 6900 0    60   ~ 0
+C2
+Text Label 5200 7000 0    60   ~ 0
+B2
+Text Label 5200 7100 0    60   ~ 0
+E2
+Text Label 5200 7200 0    60   ~ 0
+A2
+Text Label 5200 7300 0    60   ~ 0
+D2
+Text Label 5200 5750 0    60   ~ 0
+C1
+Text Label 5200 5850 0    60   ~ 0
+B2
+Text Label 5200 5950 0    60   ~ 0
+E2
+Text Label 5200 6050 0    60   ~ 0
+A2
+Text Label 5200 6150 0    60   ~ 0
+D2
+Text Label 3200 5950 2    60   ~ 0
+F2
+Text Label 3200 6050 2    60   ~ 0
+G2
+Wire Wire Line
+	3200 5950 3400 5950
+Wire Wire Line
+	3400 6050 3200 6050
+Wire Wire Line
+	5000 5750 5200 5750
+Wire Wire Line
+	5200 5850 5000 5850
+Wire Wire Line
+	5000 5950 5200 5950
+Wire Wire Line
+	5200 6050 5000 6050
+Wire Wire Line
+	5000 6150 5200 6150
+Wire Wire Line
+	5200 6900 5000 6900
+Wire Wire Line
+	5000 7000 5200 7000
+Wire Wire Line
+	5200 7100 5000 7100
+Wire Wire Line
+	5000 7200 5200 7200
+Wire Wire Line
+	5200 7300 5000 7300
+Text Label 3500 9000 2    60   ~ 0
+A2
+Text Label 3500 9100 2    60   ~ 0
+B2
+Text Label 3500 9200 2    60   ~ 0
+C2
+Text Label 3500 9300 2    60   ~ 0
+D2
+Text Label 3500 9400 2    60   ~ 0
+E2
+Text Label 3500 9500 2    60   ~ 0
+F2
+Text Label 3500 9600 2    60   ~ 0
+G2
+Wire Wire Line
+	3500 9600 3600 9600
+Wire Wire Line
+	3600 9500 3500 9500
+Wire Wire Line
+	3500 9400 3600 9400
+Wire Wire Line
+	3600 9300 3500 9300
+Wire Wire Line
+	3500 9200 3600 9200
+Wire Wire Line
+	3600 9100 3500 9100
+Wire Wire Line
+	3500 9000 3600 9000
+Text Label 5650 9000 2    60   ~ 0
+A1
+Text Label 5650 9100 2    60   ~ 0
+B1
+Text Label 5650 9200 2    60   ~ 0
+C1
+Text Label 5650 9300 2    60   ~ 0
+D1
+Text Label 5650 9400 2    60   ~ 0
+E1
+Text Label 5650 9500 2    60   ~ 0
+F1
+Text Label 5650 9600 2    60   ~ 0
+G1
+Wire Wire Line
+	5650 9600 5750 9600
+Wire Wire Line
+	5750 9500 5650 9500
+Wire Wire Line
+	5650 9400 5750 9400
+Wire Wire Line
+	5750 9300 5650 9300
+Wire Wire Line
+	5650 9200 5750 9200
+Wire Wire Line
+	5750 9100 5650 9100
+Wire Wire Line
+	5650 9000 5750 9000
+Wire Wire Line
+	3200 7100 3400 7100
+Wire Wire Line
+	3400 7200 3200 7200
 $EndSCHEMATC
