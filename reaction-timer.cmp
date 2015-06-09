@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-30 BZR 5634)-product   date = Tue 09 Jun 2015 08:16:42 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-04-30 BZR 5634)-product   date = Tue 09 Jun 2015 08:43:35 PM CEST
 
 BeginCmp
 TimeStamp = /55751056;
@@ -74,168 +74,168 @@ BeginCmp
 TimeStamp = /55747860;
 Reference = IC1;
 ValeurCmp = 4026;
-IdModule  = ;
+IdModule  = Housings_DIP:DIP-16_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
 TimeStamp = /55749C9B;
 Reference = IC2;
 ValeurCmp = 4026;
-IdModule  = ;
+IdModule  = Housings_DIP:DIP-16_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
 TimeStamp = /5574A0BA;
 Reference = IC3;
 ValeurCmp = 4026;
-IdModule  = ;
+IdModule  = Housings_DIP:DIP-16_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
 TimeStamp = /5574628C;
 Reference = IC5;
 ValeurCmp = NE555P;
-IdModule  = ;
+IdModule  = Housings_DIP:DIP-8_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
 TimeStamp = /5574614E;
 Reference = IC6;
 ValeurCmp = NE555P;
-IdModule  = ;
+IdModule  = Housings_DIP:DIP-8_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
 TimeStamp = /55746105;
 Reference = IC7;
 ValeurCmp = NE555P;
-IdModule  = ;
+IdModule  = Housings_DIP:DIP-8_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
 TimeStamp = /55749A26;
 Reference = LED1;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = LEDs:LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /55757514;
 Reference = R1;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /5575754F;
 Reference = R2;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /5575683F;
 Reference = R3;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /55756E52;
 Reference = R4;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /55754854;
 Reference = R5;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /5575489B;
 Reference = R6;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /5574F2C1;
 Reference = R7;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /557542A8;
 Reference = R8;
 ValeurCmp = POT;
-IdModule  = ;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
 EndCmp
 
 BeginCmp
 TimeStamp = /557487E4;
 Reference = R9;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /557491BB;
 Reference = R10;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /557476FA;
 Reference = R11;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /55749AF6;
 Reference = R12;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /557475F8;
 Reference = R13;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /55748AEB;
 Reference = R14;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /55747C3F;
 Reference = S2;
 ValeurCmp = SET_TO_ZERO;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_2x_1mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /5574890A;
 Reference = S3;
 ValeurCmp = STOP;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_2x_1mmDrill;
 EndCmp
 
 BeginCmp
 TimeStamp = /55745AFA;
 Reference = S4;
 ValeurCmp = START_DELAY;
-IdModule  = ;
+IdModule  = Wire_Pads:SolderWirePad_2x_1mmDrill;
 EndCmp
 
 EndListe
