@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by Cvpcb (2015-04-30 BZR 5634)-product   date = Tue 09 Jun 2015 08:16:42 PM CEST
+
+BeginCmp
+TimeStamp = /55751056;
+Reference = AFF1;
+ValeurCmp = LTS-6980HR;
+IdModule  = Displays_7-Segment:7SegmentLED_LTS6760_LTS6780;
+EndCmp
+
+BeginCmp
+TimeStamp = /55750F97;
+Reference = AFF2;
+ValeurCmp = LTS-6980HR;
+IdModule  = Displays_7-Segment:7SegmentLED_LTS6760_LTS6780;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575081D;
+Reference = AFF3;
+ValeurCmp = LTS-6980HR;
+IdModule  = Displays_7-Segment:7SegmentLED_LTS6760_LTS6780;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574745D;
+Reference = C1;
+ValeurCmp = CP;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55754F21;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:C_Disc_D7.5_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574F700;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:C_Disc_D7.5_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = /557483CE;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:C_Disc_D7.5_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = /557477AD;
+Reference = C5;
+ValeurCmp = CP;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11x5mm_RM2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55747839;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:C_Disc_D7.5_P5;
+EndCmp
+
+BeginCmp
+TimeStamp = /55787823;
+Reference = D1;
+ValeurCmp = D;
+IdModule  = Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /55747860;
+Reference = IC1;
+ValeurCmp = 4026;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55749C9B;
+Reference = IC2;
+ValeurCmp = 4026;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574A0BA;
+Reference = IC3;
+ValeurCmp = 4026;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574628C;
+Reference = IC5;
+ValeurCmp = NE555P;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574614E;
+Reference = IC6;
+ValeurCmp = NE555P;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55746105;
+Reference = IC7;
+ValeurCmp = NE555P;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55749A26;
+Reference = LED1;
+ValeurCmp = LED;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55757514;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575754F;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575683F;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55756E52;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55754854;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5575489B;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574F2C1;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /557542A8;
+Reference = R8;
+ValeurCmp = POT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /557487E4;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /557491BB;
+Reference = R10;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /557476FA;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55749AF6;
+Reference = R12;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /557475F8;
+Reference = R13;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55748AEB;
+Reference = R14;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55747C3F;
+Reference = S2;
+ValeurCmp = SET_TO_ZERO;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5574890A;
+Reference = S3;
+ValeurCmp = STOP;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55745AFA;
+Reference = S4;
+ValeurCmp = START_DELAY;
+IdModule  = ;
+EndCmp
+
+EndListe
