@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-30 BZR 5634)-product   date = Tue 09 Jun 2015 08:43:35 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-04-30 BZR 5634)-product   date = Tue 09 Jun 2015 08:54:46 PM CEST
 
 BeginCmp
 TimeStamp = /55751056;
@@ -19,6 +19,13 @@ TimeStamp = /5575081D;
 Reference = AFF3;
 ValeurCmp = LTS-6980HR;
 IdModule  = Displays_7-Segment:7SegmentLED_LTS6760_LTS6780;
+EndCmp
+
+BeginCmp
+TimeStamp = /5577447E;
+Reference = BT1;
+ValeurCmp = 9V_Battery;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
