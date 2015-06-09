@@ -51,7 +51,7 @@ U 1 1 55745AFA
 P 3400 1300
 F 0 "S4" H 3550 1410 50  0000 C CNN
 F 1 "START_DELAY" H 3400 1220 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 3400 1300 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3400 1300 60  0001 C CNN
 F 3 "" H 3400 1300 60  0000 C CNN
 	1    3400 1300
 	1    0    0    -1  
@@ -185,7 +185,7 @@ U 1 1 5574890A
 P 3100 3300
 F 0 "S3" H 3250 3410 50  0000 C CNN
 F 1 "STOP" H 3100 3220 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 3100 3300 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3100 3300 60  0001 C CNN
 F 3 "" H 3100 3300 60  0000 C CNN
 	1    3100 3300
 	1    0    0    -1  
@@ -291,7 +291,7 @@ U 1 1 55747C3F
 P 5400 5300
 F 0 "S2" H 5550 5410 50  0000 C CNN
 F 1 "SET_TO_ZERO" H 5400 5220 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_2x_1mmDrill" H 5400 5300 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5400 5300 60  0001 C CNN
 F 3 "" H 5400 5300 60  0000 C CNN
 	1    5400 5300
 	1    0    0    -1  

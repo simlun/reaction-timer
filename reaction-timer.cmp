@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-30 BZR 5634)-product   date = Tue 09 Jun 2015 08:54:46 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-04-30 BZR 5634)-product   date = Tue 09 Jun 2015 09:10:55 PM CEST
 
 BeginCmp
 TimeStamp = /55751056;
@@ -228,21 +228,21 @@ BeginCmp
 TimeStamp = /55747C3F;
 Reference = S2;
 ValeurCmp = SET_TO_ZERO;
-IdModule  = Wire_Pads:SolderWirePad_2x_1mmDrill;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /5574890A;
 Reference = S3;
 ValeurCmp = STOP;
-IdModule  = Wire_Pads:SolderWirePad_2x_1mmDrill;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /55745AFA;
 Reference = S4;
 ValeurCmp = START_DELAY;
-IdModule  = Wire_Pads:SolderWirePad_2x_1mmDrill;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 EndListe
