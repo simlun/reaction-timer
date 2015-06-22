@@ -526,12 +526,41 @@ F 3 "" H 5750 900 60  0000 C CNN
 	1    5750 900 
 	-1   0    0    1   
 $EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5577FCD2
+P 2000 850
+F 0 "#FLG03" H 2000 945 50  0001 C CNN
+F 1 "PWR_FLAG" H 2000 1030 50  0000 C CNN
+F 2 "" H 2000 850 60  0000 C CNN
+F 3 "" H 2000 850 60  0000 C CNN
+	1    2000 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D1
+U 1 1 55787823
+P 2350 850
+F 0 "D1" H 2350 950 50  0000 C CNN
+F 1 "D" H 2350 750 50  0001 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 2350 850 60  0001 C CNN
+F 3 "" H 2350 850 60  0000 C CNN
+	1    2350 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Battery BT1
+U 1 1 5577447E
+P 4300 750
+F 0 "BT1" V 4400 900 50  0000 L CNN
+F 1 "9V_Battery" V 4200 850 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" V 4300 790 60  0001 C CNN
+F 3 "" V 4300 790 60  0000 C CNN
+	1    4300 750 
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	5750 900  5750 8700
-Wire Wire Line
-	5750 1050 2500 1050
-Wire Wire Line
-	2500 1050 2500 8750
+	2500 1050 5750 1050
 Wire Wire Line
 	3100 1300 2500 1300
 Connection ~ 2500 1300
@@ -539,8 +568,6 @@ Wire Wire Line
 	3300 1750 3900 1750
 Wire Wire Line
 	3700 1750 3700 1300
-Wire Wire Line
-	2650 850  2650 8800
 Wire Wire Line
 	3900 1600 2500 1600
 Connection ~ 2500 1600
@@ -552,7 +579,7 @@ Wire Wire Line
 	5200 1300 5200 950 
 Connection ~ 5200 950 
 Wire Wire Line
-	5600 1300 5750 1300
+	5750 1300 5600 1300
 Connection ~ 5750 1300
 Wire Wire Line
 	5100 1600 5900 1600
@@ -575,7 +602,7 @@ Connection ~ 5150 1900
 Wire Wire Line
 	5100 2050 5150 2050
 Wire Wire Line
-	5150 2350 5750 2350
+	5750 2350 5150 2350
 Connection ~ 5750 2350
 Wire Wire Line
 	5450 2200 5450 2350
@@ -666,7 +693,7 @@ Connection ~ 5250 4400
 Wire Wire Line
 	5150 4550 5150 4800
 Wire Wire Line
-	5150 5100 5750 5100
+	5750 5100 5150 5100
 Connection ~ 5750 5100
 Connection ~ 5400 5100
 Wire Wire Line
@@ -680,7 +707,7 @@ Wire Wire Line
 	5000 5550 5250 5550
 Connection ~ 5100 5550
 Wire Wire Line
-	5550 5550 5750 5550
+	5750 5550 5550 5550
 Connection ~ 5750 5550
 Wire Wire Line
 	3950 4400 3400 4400
@@ -732,17 +759,11 @@ Wire Wire Line
 	3400 7900 2500 7900
 Connection ~ 2500 7900
 Wire Wire Line
-	3400 8000 2650 8000
-Connection ~ 2650 8000
-Wire Wire Line
 	3400 8100 2500 8100
 Connection ~ 2500 8100
 Wire Wire Line
 	3400 8200 2500 8200
 Connection ~ 2500 8200
-Wire Wire Line
-	3400 8500 2500 8500
-Connection ~ 2500 8500
 Wire Wire Line
 	5900 6600 5000 6600
 Connection ~ 5900 6600
@@ -752,38 +773,13 @@ Wire Wire Line
 	5100 7900 5000 7900
 Connection ~ 5100 6700
 Wire Wire Line
-	5000 6800 5750 6800
-Connection ~ 5750 6800
-Wire Wire Line
-	5000 8000 5750 8000
-Connection ~ 5750 8000
-Wire Wire Line
-	5900 950  5900 8800
-Wire Wire Line
-	5750 8700 5600 8700
-Wire Wire Line
-	5600 8700 5600 8550
-Wire Wire Line
-	5600 8550 5750 8550
-Connection ~ 5750 8550
-Wire Wire Line
-	2500 8750 2400 8750
-Wire Wire Line
-	2400 8750 2400 8650
-Wire Wire Line
-	2400 8650 2500 8650
-Connection ~ 2500 8650
+	5750 6800 5000 6800
 Wire Wire Line
 	2500 8950 2600 8950
 Wire Wire Line
 	2500 9050 2600 9050
 Wire Wire Line
 	2600 9050 2600 9150
-Wire Wire Line
-	2900 8800 2900 9150
-Wire Wire Line
-	2650 8800 2900 8800
-Connection ~ 2900 8950
 Wire Wire Line
 	4800 8950 4900 8950
 Wire Wire Line
@@ -803,7 +799,6 @@ Wire Wire Line
 Connection ~ 7350 8950
 Wire Wire Line
 	5200 8800 5200 9150
-Connection ~ 5900 8800
 Connection ~ 5200 8950
 Wire Wire Line
 	5000 8400 5100 8400
@@ -879,7 +874,7 @@ Wire Wire Line
 	5000 5450 5900 5450
 Connection ~ 5900 5450
 Wire Wire Line
-	5000 5650 5750 5650
+	5750 5650 5000 5650
 Connection ~ 5750 5650
 Wire Wire Line
 	5650 9600 5750 9600
@@ -897,28 +892,6 @@ Wire Wire Line
 	5750 9000 5650 9000
 Wire Wire Line
 	2650 950  5900 950 
-$Comp
-L PWR_FLAG #FLG03
-U 1 1 5577FCD2
-P 2000 850
-F 0 "#FLG03" H 2000 945 50  0001 C CNN
-F 1 "PWR_FLAG" H 2000 1030 50  0000 C CNN
-F 2 "" H 2000 850 60  0000 C CNN
-F 3 "" H 2000 850 60  0000 C CNN
-	1    2000 850 
-	-1   0    0    1   
-$EndComp
-$Comp
-L D D1
-U 1 1 55787823
-P 2350 850
-F 0 "D1" H 2350 950 50  0000 C CNN
-F 1 "D" H 2350 750 50  0001 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 2350 850 60  0001 C CNN
-F 3 "" H 2350 850 60  0000 C CNN
-	1    2350 850 
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1600 800  1600 850 
 Wire Wire Line
@@ -927,19 +900,7 @@ Connection ~ 2000 850
 Wire Wire Line
 	2500 850  2650 850 
 Wire Wire Line
-	5000 7800 5900 7800
-Connection ~ 5900 7800
-$Comp
-L Battery BT1
-U 1 1 5577447E
-P 4300 750
-F 0 "BT1" V 4400 900 50  0000 L CNN
-F 1 "9V_Battery" V 4200 850 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" V 4300 790 60  0001 C CNN
-F 3 "" V 4300 790 60  0000 C CNN
-	1    4300 750 
-	0    -1   -1   0   
-$EndComp
+	5900 7800 5000 7800
 Wire Wire Line
 	4150 750  1800 750 
 Wire Wire Line
@@ -950,4 +911,31 @@ Wire Wire Line
 Wire Wire Line
 	4550 750  4550 1050
 Connection ~ 4550 1050
+Wire Wire Line
+	5750 900  5750 8000
+Connection ~ 5750 6800
+Wire Wire Line
+	5750 8000 5000 8000
+Wire Wire Line
+	2500 1050 2500 8500
+Wire Wire Line
+	2500 8500 3400 8500
+Wire Wire Line
+	5900 950  5900 7800
+Wire Wire Line
+	2650 850  2650 8000
+Wire Wire Line
+	2650 8000 3400 8000
+Wire Wire Line
+	2900 8950 2900 9150
+Wire Wire Line
+	2900 9050 3100 9050
+Wire Wire Line
+	3100 9050 3100 8500
+Connection ~ 3100 8500
+Connection ~ 2900 9050
+Wire Wire Line
+	5500 8000 5500 8800
+Connection ~ 5500 8800
+Connection ~ 5500 8000
 $EndSCHEMATC
