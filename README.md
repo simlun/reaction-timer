@@ -3,6 +3,10 @@ Reaction Timer
 
 A complete product based on Experiment 18 of [Make Electronics by Charles Platt][makeelec] - the Reaction Timer.
 
+![Back](reaction-timer_back-0.1.0.png)
+
+![Front](reaction-timer_front-0.1.0.png)
+
 
 My Modifications
 ----------------
