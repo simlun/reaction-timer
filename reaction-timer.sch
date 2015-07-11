@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "Reaction Timer"
 Date ""
-Rev "0.1.0"
+Rev "0.1.1"
 Comp "Simon Lundmark"
 Comment1 ""
 Comment2 ""
@@ -622,9 +622,6 @@ Wire Wire Line
 	5900 2850 5600 2850
 Connection ~ 5900 2850
 Wire Wire Line
-	5900 3150 5600 3150
-Connection ~ 5900 3150
-Wire Wire Line
 	4200 2600 4200 3300
 Wire Wire Line
 	3500 3300 4400 3300
@@ -938,4 +935,7 @@ Wire Wire Line
 	5500 8000 5500 8800
 Connection ~ 5500 8800
 Connection ~ 5500 8000
+Wire Wire Line
+	5600 3150 5750 3150
+Connection ~ 5750 3150
 $EndSCHEMATC
